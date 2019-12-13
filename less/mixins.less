@@ -1,1 +1,30 @@
 // Mixins Here
+.flexer{
+    display:flex;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+// Parametric Mixin
+.default-button(@color,@size){
+    max-width:10rem;
+    padding: 3% 6%;
+    color:@porcelain;
+    background-color: @color;
+    font-size: @size;
+    font-weight: bold;
+    text-align:center;
+    @media @phone {
+        max-width: 100%;
+      }
+
+    &:hover {
+        background-color: @shuttle-gray;
+        color: @waterloo;    
+    }
+}

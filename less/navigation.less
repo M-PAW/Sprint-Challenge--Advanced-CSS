@@ -1,1 +1,25 @@
 // Navigation code here
+.nav-container {
+    width:100%;
+    margin: 2% 0;
+    @media @phone{
+        max-width:500px;
+        width: 90%;
+    }
+    nav {
+        .flexer();
+        .flex-center();
+        align-content: space-between;
+        margin: 3% auto 1%;
+        font-size: 150%;
+        text-align: center;
+        height: 7%;
+
+    }
+    a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        padding: 0 1.5%;
+        color: @ebony-clay;
+        }
+}
