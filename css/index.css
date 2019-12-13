@@ -226,8 +226,8 @@ footer {
 }
 @media (max-width:600px) {
   .home .space-images .blast {
-    width: 80%;
-    min-width: 460px;
+    width: 100%;
+    margin-left: 6%;
   }
 }
 .home .space-images img {
@@ -288,7 +288,7 @@ footer {
 }
 @media (max-width:600px) {
   .home .walk .walk-text .btn {
-    width: 100%;
+    max-width: 100%;
   }
 }
 .home .walk .walk-text .btn:hover {
